@@ -1,5 +1,5 @@
 [package]
-name = "hook"
+name = "beacon_hook_bypass_memscan"
 version = "0.1.0"
 edition = "2018"
 

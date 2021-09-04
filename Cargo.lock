@@ -3,6 +3,16 @@
 version = 3
 
 [[package]]
+name = "beacon_hook_bypass_memscan"
+version = "0.1.0"
+dependencies = [
+ "detour",
+ "lazy_static",
+ "region 3.0.0",
+ "winapi 0.3.9",
+]
+
+[[package]]
 name = "bitflags"
 version = "1.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -44,16 +54,6 @@ checksum = "501466ecc8a30d1d3b7fc9229b122b2ce8ed6e9d9223f1138d4babb253e51817"
 dependencies = [
  "typenum",
  "version_check",
-]
-
-[[package]]
-name = "hook"
-version = "0.1.0"
-dependencies = [
- "detour",
- "lazy_static",
- "region 3.0.0",
- "winapi 0.3.9",
 ]
 
 [[package]]
